@@ -29,7 +29,7 @@ Open [Postman](https://www.getpostman.com/downloads/), and **`POST`** to `localh
 Using CURL POST application/json and output in pretty-print json format
 
 ```bash 
-curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:3000/data | json_pp 
+curl -d '{"username":"USERNAME","password":"PASSWORD","secureNumber":"123456","dateOfBirth":"01012000"}' -H "Content-Type: application/json" -X POST http://localhost:3000/data | json_pp 
 ```
 
 
