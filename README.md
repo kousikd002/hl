@@ -15,12 +15,23 @@ Step 3: ```npm run build```
 
 Step 4: ```npm start```
 
-Step 5: Open [Postman](https://www.getpostman.com/downloads/), and **`POST`** to `localhost:3000/` including the following in a `x-www-form-urlencoded` body:
+Step 5: 
+
+Open [Postman](https://www.getpostman.com/downloads/), and **`POST`** to `localhost:5000/` including the following in a `x-www-form-urlencoded` body:
 
 `username`:**`<yourHLusername>`**<br/>
 `password`:**`<yourHLpassword>`**<br/>
 `secureNumber`:**`<yourHLsecureNumber>`** <br/>
 `dateOfBirth`:**`<yourDOB>`**
+
+[OR]
+
+Using CURL POST application/json and output in pretty-print json format
+
+```bash 
+curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:3000/data | json_pp 
+```
+
 
 ## <div style="color:#0F1A48"> Future Updates </div>
 I am currently working on being able to query the accounts in more depth, right down to the individual holdings, and be able to programmatically buy and sell holdings...watch this space...
