@@ -94,3 +94,5 @@ tests/cases/user/axios-src/axios-src
 tests/cases/user/prettier/prettier
 /lib
 .env
+HL.out
+curl.txt
