@@ -7,7 +7,7 @@
 
 ## <div style="color:#0F1A48"> Quick Start </div>
 Step 1:
-```git clone https://github.com/jamiehaywood/hl.git```
+```git clone https://github.com/kousikd002/hl-fork.git```
 
 Step 2: ```npm install```
 
