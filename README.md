@@ -34,7 +34,7 @@ curl -d '{"username":"USERNAME","password":"PASSWORD","secureNumber":"123456","d
 
 
 ## <div style="color:#0F1A48"> Future Updates </div>
-I am currently working on being able to query the accounts in more depth, right down to the individual holdings, and be able to programmatically buy and sell holdings...watch this space...
+I am currently working on being able to query the accounts in more depth, right down to the individual holdings, and be able to programmatically buy and sell holdings...watch the space...
 
 ## <div style="color:#0F1A48"> Contributing </div>
 Please feel free to fork, contribute, rewrite etc.
